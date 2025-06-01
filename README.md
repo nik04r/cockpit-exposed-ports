@@ -27,4 +27,4 @@ Open your browser and go to:
    ```
    https://<your-server-ip>:9090
 You should see "Exposed Ports" in the sidebar.
-![Screenshot](images/screenshot.png)
+![Screenshot](images/exposed-ports.jpg)
