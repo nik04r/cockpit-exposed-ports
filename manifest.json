@@ -1,0 +1,29 @@
+{
+  "name": "exposed-ports",
+  "requires": {
+    "cockpit": "266"
+  },
+  "conditions": [
+    {
+      "path-exists": "/usr/bin/ss"
+    }
+  ],
+
+  "tools": {
+    "index": {
+      "label": "Exposed Ports",
+      "docs": [
+        {
+          "label": "Cockpit guide",
+          "url": "https://github.com/nik04r/cockpit-exposed-ports"
+        }
+      ],
+      "keywords": [
+        {
+          "matches": ["ports", "firewall", "open ports", "listening", "network", "tcp", "udp"]
+        }
+      ]
+    }
+  },
+  "content-security-policy": "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self';"
+}

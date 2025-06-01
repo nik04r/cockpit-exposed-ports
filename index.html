@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" id="exposed-ports-page">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exposed Ports</title>
+    <link href="exposed.css" rel="stylesheet" />
+    <script src="../base1/cockpit.js" defer></script>
+    <script src="exposed.js" defer></script>
+</head>
+<body>
+    <div class="ct-page-fill" id="page">
+        <table>
+            <thead>
+                <tr>
+                    <th>Port</th>
+                    <th>Protocol</th>
+                    <th>Service</th>
+                    <th>Status</th>
+                    <th>State</th>
+                    <th>Recv-Q</th>
+                    <th>Send-Q</th>
+                    <th>Local Address</th>
+                    <th>Peer Address</th>
+                </tr>
+            </thead>
+            <tbody id="port-table-body">
+                <!-- Dynamic rows go here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
